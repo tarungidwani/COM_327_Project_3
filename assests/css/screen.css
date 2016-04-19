@@ -34,3 +34,14 @@ q {
   font-style: italic;
   padding-bottom: 1.383em; /* 32.653px/23.61px */
 }
+p {
+  text-indent: 2em;
+}
+h3+p {
+  padding-bottom: 1.793em; /* 42.323px/23.61px */
+  text-indent: 0em;
+}
+#pagecontent h3+p{
+  padding-bottom: 0.823em; /* 19.436px/23.61px */
+  text-indent: 0em;
+}
