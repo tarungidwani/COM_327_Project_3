@@ -54,3 +54,8 @@ h3+p {
 h1 {
   font-size: 1.68em; /* 45.159px/26.88px */
 }
+h3+ul {
+  list-style-type: square;
+  padding-left: 1em; /* 45.159px/45.159px */
+  line-height: 1.575em; /* 71.104px/45.159px */
+}
