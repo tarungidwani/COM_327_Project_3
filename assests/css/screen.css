@@ -78,3 +78,8 @@ a:visited,#navigation a:visited {
 a:hover,#navigation a:hover {
   color: #F5F5F5;
 }
+#contactinfo p {
+  font-size: 1.476em;
+  line-height: 1.383em;
+  text-align: center;
+}
