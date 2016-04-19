@@ -64,8 +64,8 @@ h3+ul {
   padding-bottom: 1.793em; /* 80.951px/45.159px */
 }
 #navigation a {
-  font-size: 1.296em;
-  line-height: 1.476em;
+  font-size: 1.296em; /* 58.533px/45.159px */
+  line-height: 1.476em; /* 86.375px/58.533px */
   color: #87CEFA;
   font-weight: bolder;
 }
@@ -79,7 +79,15 @@ a:hover,#navigation a:hover {
   color: #F5F5F5;
 }
 #contactinfo p {
-  font-size: 1.476em;
+  font-size: 1.476em; /* 86.375px/58.533px */
   line-height: 1.383em;
   text-align: center;
+}
+/* 2) Custom Media Query Styles */
+@media screen and (min-width: 54.0625em) {
+  /* 1) Base Styles */
+  body {
+    padding-left: 2.822em;
+    padding-right: 2.822em;
+  }
 }
