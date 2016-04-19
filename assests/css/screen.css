@@ -47,4 +47,7 @@ h3+p {
 }
 #pagecontent p+p{
   padding-bottom: 1.793em; /* 42.323px/23.61px */
+}h2 {
+  font-size: 1.139em; /* 26.88px/23.61px */
+  padding-bottom: 1em; /* 26.88px/26.88px */
 }
