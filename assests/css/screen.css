@@ -91,3 +91,10 @@ a:hover,#navigation a:hover {
     padding-right: 2.822em;
   }
 }
+@media screen and (min-width: 74.0625em) {
+  /* 1) Base Styles */
+  body {
+    padding-left: 3.822em;
+    padding-right: 6.822em;
+  }
+}
