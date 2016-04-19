@@ -24,3 +24,7 @@ body {
   font-family: calibri,Tahoma,"Trebuchet MS",Verdana,Georgia,serif,sans-serif; /* set mulitple font styles to support available fonts for multiple OSs */
   text-size-adjust: 100%;
 }
+h3 {
+  font-size: 1.215em; /* 23.61px/19.436px */
+  line-height: 1.913em; /* 45.159px/23.61px */
+}
