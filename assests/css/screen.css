@@ -64,12 +64,17 @@ h3+ul {
   padding-bottom: 1.793em; /* 80.951px/45.159px */
 }
 #navigation a{
+  font-size: 1.296em;
+  line-height: 1.476em;
   color: #87CEFA;
   font-weight: bolder;
 }
-#navigation a:visited{
+a{
+  color: #87CEFA;
+}
+a:visited,#navigation a:visited{
   color: #228B22;
 }
-#navigation a:hover{
+a:hover,#navigation a:hover{
   color: #F5F5F5;
 }
