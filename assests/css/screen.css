@@ -24,7 +24,16 @@ body {
   font-family: calibri,Tahoma,"Trebuchet MS",Verdana,Georgia,serif,sans-serif; /* set mulitple font styles to support available fonts for multiple OSs */
   text-size-adjust: 100%;
 }
-/* Styling for header of my webpage class=header*/
+a {
+  color: #87CEFA;
+}
+a:visited,#navigation a:visited {
+  color: #228B22;
+}
+a:hover,#navigation a:hover {
+  color: #F5F5F5;
+}
+/* Styling for header of my webpage id=header*/
 #header h1 {
   font-size: 1.68em; /* 45.159px/26.88px */
 }
@@ -37,6 +46,15 @@ body {
   text-align: center;
   font-style: italic;
   padding-bottom: 1.383em; /* 32.653px/23.61px */
+}
+/* Styling for navigation of my webpage id=navigation*/
+#navigation {
+  padding-bottom: 1.793em; /* 80.951px/45.159px */
+}
+#navigation a {
+  font-size: 1.296em; /* 58.533px/45.159px */
+  line-height: 1.476em; /* 86.375px/58.533px */
+  font-weight: bolder;
 }
 h3 {
   font-size: 1.215em; /* 23.61px/19.436px */
@@ -61,25 +79,7 @@ h3+ul {
   padding-left: 1em; /* 45.159px/45.159px */
   line-height: 1.575em; /* 71.104px/45.159px */
 }
-#navigation{
-  padding-bottom: 1.793em; /* 80.951px/45.159px */
-}
-#navigation a {
-  font-size: 1.296em; /* 58.533px/45.159px */
-  line-height: 1.476em; /* 86.375px/58.533px */
-  color: #87CEFA;
-  font-weight: bolder;
-}
-a {
-  color: #87CEFA;
-}
-a:visited,#navigation a:visited {
-  color: #228B22;
-}
-a:hover,#navigation a:hover {
-  color: #F5F5F5;
-}
-#contactinfo p {
+#contactinfo p{
   font-size: 1.476em; /* 86.375px/58.533px */
   line-height: 1.383em;
   text-align: center;
