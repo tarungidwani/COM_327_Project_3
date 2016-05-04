@@ -62,22 +62,19 @@ a:hover,#navigation a:hover {
   line-height: 1.383em;
   text-align: center;
 }
-h3 {
+/* Styling for page content portion of my webpage id=pagecontent*/
+#pagecontent h3 {
   font-size: 1.215em; /* 23.61px/19.436px */
   line-height: 1.913em; /* 45.159px/23.61px */
 }
-p {
+#pagecontent p {
+  padding-bottom: 0.823em;/* 19.436px/23.61px */
   text-indent: 2em;
 }
-h3+p {
-  padding-bottom: 1.793em; /* 42.323px/23.61px */
-  text-indent: 0em;
+#pagecontent h3+p {
+    text-indent: 0em;
 }
-#pagecontent h3+p{
-  padding-bottom: 0.823em; /* 19.436px/23.61px */
-  text-indent: 0em;
-}
-#pagecontent p+p{
+#pagecontent li p:last-of-type {
   padding-bottom: 1.793em; /* 42.323px/23.61px */
 }
 h3+ul {
