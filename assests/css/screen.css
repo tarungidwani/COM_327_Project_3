@@ -56,6 +56,12 @@ a:hover,#navigation a:hover {
   line-height: 1.476em; /* 86.375px/58.533px */
   font-weight: bolder;
 }
+/* Styling for contact info portion of my webpage id=contactinfo*/
+#contactinfo p {
+  font-size: 1.476em; /* 86.375px/58.533px */
+  line-height: 1.383em;
+  text-align: center;
+}
 h3 {
   font-size: 1.215em; /* 23.61px/19.436px */
   line-height: 1.913em; /* 45.159px/23.61px */
@@ -78,11 +84,6 @@ h3+ul {
   list-style-type: square;
   padding-left: 1em; /* 45.159px/45.159px */
   line-height: 1.575em; /* 71.104px/45.159px */
-}
-#contactinfo p{
-  font-size: 1.476em; /* 86.375px/58.533px */
-  line-height: 1.383em;
-  text-align: center;
 }
 /* 2) Custom Media Query Styles */
 @media screen and (min-width: 54.0625em) {
