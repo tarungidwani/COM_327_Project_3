@@ -24,15 +24,23 @@ body {
   font-family: calibri,Tahoma,"Trebuchet MS",Verdana,Georgia,serif,sans-serif; /* set mulitple font styles to support available fonts for multiple OSs */
   text-size-adjust: 100%;
 }
-h3 {
-  font-size: 1.215em; /* 23.61px/19.436px */
-  line-height: 1.913em; /* 45.159px/23.61px */
+/* Styling for header of my webpage class=header*/
+.header h1 {
+  font-size: 1.68em; /* 45.159px/26.88px */
 }
-q {
+.header h2 {
+  font-size: 1.139em; /* 26.88px/23.61px */
+  padding-bottom: 1em; /* 26.88px/26.88px */
+}
+.header q {
   display: block;
   text-align: center;
   font-style: italic;
   padding-bottom: 1.383em; /* 32.653px/23.61px */
+}
+h3 {
+  font-size: 1.215em; /* 23.61px/19.436px */
+  line-height: 1.913em; /* 45.159px/23.61px */
 }
 p {
   text-indent: 2em;
@@ -47,13 +55,6 @@ h3+p {
 }
 #pagecontent p+p{
   padding-bottom: 1.793em; /* 42.323px/23.61px */
-}
-h2 {
-  font-size: 1.139em; /* 26.88px/23.61px */
-  padding-bottom: 1em; /* 26.88px/26.88px */
-}
-h1 {
-  font-size: 1.68em; /* 45.159px/26.88px */
 }
 h3+ul {
   list-style-type: square;
