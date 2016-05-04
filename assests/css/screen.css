@@ -77,10 +77,10 @@ a:hover,#navigation a:hover {
 #pagecontent li p:last-of-type {
   padding-bottom: 1.793em; /* 42.323px/23.61px */
 }
-h3+ul {
-  list-style-type: square;
-  padding-left: 1em; /* 45.159px/45.159px */
-  line-height: 1.575em; /* 71.104px/45.159px */
+#pagecontent h3+ul {
+ list-style-type: square;
+ padding-left: 1em; /* 45.159px/45.159px */
+ line-height: 1.575em; /* 71.104px/45.159px */
 }
 /* 2) Custom Media Query Styles */
 @media screen and (min-width: 54.0625em) {
