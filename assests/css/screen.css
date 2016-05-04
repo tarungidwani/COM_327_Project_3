@@ -25,14 +25,14 @@ body {
   text-size-adjust: 100%;
 }
 /* Styling for header of my webpage class=header*/
-.header h1 {
+#header h1 {
   font-size: 1.68em; /* 45.159px/26.88px */
 }
-.header h2 {
+#header h2 {
   font-size: 1.139em; /* 26.88px/23.61px */
   padding-bottom: 1em; /* 26.88px/26.88px */
 }
-.header q {
+#header q {
   display: block;
   text-align: center;
   font-style: italic;
