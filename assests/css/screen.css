@@ -68,19 +68,22 @@ a:hover,#navigation a:hover {
   line-height: 1.913em; /* 45.159px/23.61px */
 }
 #pagecontent p {
-  padding-bottom: 0.823em;/* 19.436px/23.61px */
+  padding-bottom: 0.823em; /* 19.436px/23.61px */
   text-indent: 2em;
 }
 #pagecontent h3+p {
-    text-indent: 0em;
+  text-indent: 0em;
 }
-#pagecontent li p:last-of-type {
-  padding-bottom: 1.793em; /* 42.323px/23.61px */
+#pagecontent li {
+  padding-bottom: 0.937em; /* 22.127px/23.61px */
 }
 #pagecontent h3+ul {
- list-style-type: square;
- padding-left: 1em; /* 45.159px/45.159px */
- line-height: 1.575em; /* 71.104px/45.159px */
+  list-style-type: square;
+  padding-left: 1em; /* 45.159px/45.159px */
+  line-height: 1.575em; /* 71.104px/45.159px */
+}
+#pagecontent h3+ul li {
+  padding-bottom: 0em;
 }
 /* 2) Custom Media Query Styles */
 @media screen and (min-width: 54.0625em) {
